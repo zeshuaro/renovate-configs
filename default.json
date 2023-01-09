@@ -1,0 +1,24 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:base",
+    ":automergeMinor",
+    ":pinAllExceptPeerDependencies"
+  ],
+  "labels": ["dependencies"],
+  "lockFileMaintenance": {
+    "enabled": true,
+    "schedule": ["after 6pm every weekday", "every weekend"]
+  },
+  "semanticCommits": "enabled",
+  "schedule": ["after 6pm every weekday", "every weekend"],
+  "automergeSchedule": ["after 6pm every weekday", "every weekend"],
+  "timezone": "Australia/Sydney",
+  "packageRules": [
+    {
+      "groupName": "GitHub Actions dependencies",
+      "matchPaths": [".github/workflows/*.yml"],
+      "addLabels": ["ci"]
+    }
+  ]
+}
