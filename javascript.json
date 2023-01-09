@@ -1,0 +1,15 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["npm:unpublishSafe"],
+  "postUpdateOptions": ["yarnDedupeFewer"],
+  "packageRules": [
+    {
+      "groupName": "Node",
+      "matchFiles": [".nvmrc"],
+      "matchPackageNames": ["node"],
+      "semanticCommitScope": "node",
+      "automerge": false,
+      "separateMinorPatch": true
+    }
+  ]
+}

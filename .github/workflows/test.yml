@@ -19,6 +19,7 @@ jobs:
         file:
           - default
           - python
+          - javascript
 
     env:
       RENOVATE_CONFIG_FILE: ${{ matrix.file }}.json
