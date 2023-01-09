@@ -1,0 +1,12 @@
+{
+  "packageRules": [
+    {
+      "groupName": "Python",
+      "matchFiles": [".python-version", "Dockerfile"],
+      "matchPackageNames": ["python"],
+      "semanticCommitScope": "python",
+      "automerge": false,
+      "separateMinorPatch": true
+    }
+  ]
+}
