@@ -9,7 +9,8 @@
       "matchPackageNames": ["node"],
       "semanticCommitScope": "node",
       "automerge": false,
-      "separateMinorPatch": true
+      "separateMinorPatch": true,
+      "rangeStrategy": "replace"
     }
   ]
 }
