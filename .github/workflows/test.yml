@@ -10,8 +10,8 @@ env:
   LOG_LEVEL: debug
 
 jobs:
-  validate-presets:
-    name: Validate presets
+  validate-configs:
+    name: Validate Renovate configs
     runs-on: ubuntu-latest
 
     strategy:
@@ -26,5 +26,5 @@ jobs:
       - name: Checkout 🛎️
         uses: actions/checkout@v3
 
-      - name: Validate preset file 🧪
+      - name: Validate config 🧪
         run: npx -p renovate renovate-config-validator
