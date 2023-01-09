@@ -3,16 +3,16 @@
   "extends": [
     "config:base",
     ":automergeMinor",
-    ":pinAllExceptPeerDependencies"
+    ":dependencyDashboard",
+    ":maintainLockFilesWeekly",
+    ":pinAllExceptPeerDependencies",
+    ":prNotPending",
+    ":semanticCommits"
   ],
-  "labels": ["dependencies"],
-  "lockFileMaintenance": {
-    "enabled": true,
-    "schedule": ["after 6pm every weekday", "every weekend"]
-  },
-  "semanticCommits": "enabled",
-  "schedule": ["after 6pm every weekday", "every weekend"],
+  "assignees": ["zeshuaro"],
   "automergeSchedule": ["after 6pm every weekday", "every weekend"],
+  "labels": ["dependencies"],
+  "schedule": ["after 6pm every weekday", "every weekend"],
   "timezone": "Australia/Sydney",
   "packageRules": [
     {
