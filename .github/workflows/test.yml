@@ -1,0 +1,30 @@
+name: Test
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+env:
+  LOG_LEVEL: debug
+
+jobs:
+  validate-presets:
+    name: Validate presets
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        file:
+          - default
+
+    env:
+      RENOVATE_CONFIG_FILE: ${{ matrix.file }}.json
+
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v3
+
+      - name: Validate preset file 🧪
+        run: npx -p renovate renovate-config-validator
