@@ -6,7 +6,6 @@
     ":dependencyDashboard",
     ":maintainLockFilesWeekly",
     ":pinAllExceptPeerDependencies",
-    ":prNotPending",
     ":semanticCommits"
   ],
   "assignees": ["zeshuaro"],
