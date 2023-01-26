@@ -14,22 +14,12 @@ jobs:
     name: Validate Renovate configs
     runs-on: ubuntu-latest
 
-    strategy:
-      matrix:
-        file:
-          - default
-          - app
-          - dart
-          - flutter
-          - javascript
-          - python
-
-    env:
-      RENOVATE_CONFIG_FILE: ${{ matrix.file }}.json
-
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v3
 
-      - name: Validate config 🧪
-        run: npx -p renovate renovate-config-validator
+      - name: Validate Renovate configs 🧪
+        run: |
+          for file in $(find . -type f -name "*.json" -maxdepth 1); do 
+            RENOVATE_CONFIG_FILE=$file npx -p renovate renovate-config-validator
+          done
