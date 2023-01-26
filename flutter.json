@@ -1,13 +1,5 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "ignorePaths": [
-    "android/**",
-    "ios/**",
-    "macos/**",
-    "example/android/**",
-    "example/ios/**",
-    "example/macos/**"
-  ],
   "packageRules": [
     {
       "groupName": "Flutter dependencies",
