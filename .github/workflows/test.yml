@@ -18,8 +18,11 @@ jobs:
       matrix:
         file:
           - default
-          - python
+          - app
+          - dart
+          - flutter
           - javascript
+          - python
 
     env:
       RENOVATE_CONFIG_FILE: ${{ matrix.file }}.json
