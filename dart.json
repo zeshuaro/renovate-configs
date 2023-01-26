@@ -1,0 +1,26 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "packageRules": [
+    {
+      "groupName": "Internal packages",
+      "description": "Don't pin dependency versions for internal packages",
+      "matchPaths": ["packages/**/pubspec.yaml"],
+      "rangeStrategy": "replace"
+    },
+    {
+      "groupName": "Bloc dependencies",
+      "matchPaths": ["**/pubspec.yaml"],
+      "matchPackagePrefixes": ["bloc", "flutter_bloc"]
+    },
+    {
+      "groupName": "Copy with extension dependencies",
+      "matchPaths": ["**/pubspec.yaml"],
+      "matchPackagePrefixes": ["copy_with_extension"]
+    },
+    {
+      "groupName": "Firebase dependencies",
+      "matchPaths": ["**/pubspec.yaml"],
+      "matchPackagePrefixes": ["firebase_", "cloud_firestore"]
+    }
+  ]
+}

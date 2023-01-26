@@ -5,7 +5,6 @@
     ":automergeMinor",
     ":dependencyDashboard",
     ":maintainLockFilesWeekly",
-    ":pinAllExceptPeerDependencies",
     ":semanticCommits"
   ],
   "assignees": ["zeshuaro"],
