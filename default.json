@@ -4,6 +4,7 @@
     "config:base",
     ":automergeMinor",
     ":dependencyDashboard",
+    ":enablePreCommit",
     ":maintainLockFilesWeekly",
     ":semanticCommits"
   ],
