@@ -21,6 +21,11 @@
       "groupName": "Firebase dependencies",
       "matchPaths": ["**/pubspec.yaml"],
       "matchPackagePrefixes": ["firebase_", "cloud_firestore"]
+    },
+    {
+      "groupName": "Universal dependencies",
+      "matchPaths": ["**/pubspec.yaml"],
+      "matchPackagePrefixes": ["universal_"]
     }
   ]
 }
