@@ -2,15 +2,13 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "packageRules": [
     {
-      "groupName": "Flutter dependencies",
-      "description": "These dependencies are used in Flutter SDK so their versions have to be aligned with the SDK",
-      "enabled": false,
-      "matchPaths": ["**/pubspec.yaml"],
-      "matchPackageNames": ["material_color_utilities", "collection"]
-    },
-    {
       "groupName": "Flutter SDK",
-      "matchFiles": [".fvm/fvm_config.json"],
+      "matchPaths": [".fvm/fvm_config.json"],
+      "matchPackageNames": [
+        "flutter",
+        "material_color_utilities",
+        "collection"
+      ],
       "labels": ["fluttersdk"],
       "semanticCommitScope": "flutter",
       "automerge": false
