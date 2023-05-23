@@ -8,6 +8,11 @@
       "semanticCommitScope": "python",
       "automerge": false,
       "separateMinorPatch": true
+    },
+    {
+      "groupName": "Requests dependencies",
+      "matchPaths": ["pyproject.toml"],
+      "matchPackageNames": ["requests", "types-requests"]
     }
   ]
 }
