@@ -10,7 +10,7 @@
     },
     {
       "groupName": "Flutter SDK",
-      "matchFiles": [".fvm/fvm_config.json"],
+      "matchFiles": [".fvm/fvm_config.json", "**/pubspec.yaml"],
       "labels": ["fluttersdk"],
       "semanticCommitScope": "flutter",
       "automerge": false
