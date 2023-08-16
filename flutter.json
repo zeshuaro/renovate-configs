@@ -9,6 +9,13 @@
       "matchPackageNames": ["material_color_utilities", "collection"]
     },
     {
+      "groupName": "Dart SDK",
+      "matchFiles": ["**/pubspec.yaml"],
+      "matchPackageNames": ["dart"],
+      "description": "Dart SDK updates are disabled as its version is managed by Flutter",
+      "enabled": false
+    },
+    {
       "groupName": "Flutter SDK",
       "matchFiles": [".fvm/fvm_config.json", "**/pubspec.yaml"],
       "labels": ["fluttersdk"],
