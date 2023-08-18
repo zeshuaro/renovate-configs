@@ -18,6 +18,7 @@
     {
       "groupName": "Flutter SDK",
       "matchFiles": [".fvm/fvm_config.json", "**/pubspec.yaml"],
+      "matchPackageNames": ["flutter"],
       "labels": ["fluttersdk"],
       "semanticCommitScope": "flutter",
       "automerge": false
