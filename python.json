@@ -6,7 +6,6 @@
       "matchFiles": [".python-version", "Dockerfile", "pyproject.toml"],
       "matchPackageNames": ["python"],
       "semanticCommitScope": "python",
-      "automerge": false,
       "separateMinorPatch": true
     },
     {
