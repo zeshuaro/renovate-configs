@@ -3,7 +3,7 @@
   "packageRules": [
     {
       "groupName": "Python",
-      "matchFiles": [".python-version", "Dockerfile"],
+      "matchFiles": [".python-version", "Dockerfile", "pyproject.toml"],
       "matchPackageNames": ["python"],
       "semanticCommitScope": "python",
       "automerge": false,
