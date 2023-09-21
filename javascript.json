@@ -5,12 +5,13 @@
   "packageRules": [
     {
       "groupName": "Node",
-      "matchFiles": [".nvmrc"],
+      "matchFileNames": [".nvmrc", "package.json"],
       "matchPackageNames": ["node"],
+      "semanticCommitType": "fix",
       "semanticCommitScope": "node",
       "automerge": false,
       "separateMinorPatch": true,
-      "rangeStrategy": "replace"
+      "rangeStrategy": "bump"
     }
   ]
 }
