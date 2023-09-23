@@ -1,0 +1,12 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "packageRules": [
+    {
+      "groupName": "Node chore",
+      "matchFileNames": [".nvmrc", "package.json"],
+      "matchPackageNames": ["node"],
+      "semanticCommitType": "chore",
+      "separateMinorPatch": false
+    }
+  ]
+}
