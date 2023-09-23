@@ -2,7 +2,7 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "packageRules": [
     {
-      "groupName": "Node",
+      "groupName": "Node version",
       "matchFileNames": [".nvmrc", "package.json"],
       "matchPackageNames": ["node"],
       "semanticCommitType": "fix",
