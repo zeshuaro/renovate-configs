@@ -17,9 +17,15 @@
   "timezone": "Australia/Sydney",
   "packageRules": [
     {
+      "groupName": "Lock file maintenance",
+      "matchUpdateTypes": ["lockFileMaintenance"],
+      "semanticCommitType": "fix"
+    },
+    {
       "groupName": "GitHub Actions dependencies",
       "matchPaths": [".github/workflows/*.yml"],
-      "addLabels": ["ci"]
+      "addLabels": ["ci"],
+      "semanticCommitType": "ci"
     }
   ]
 }
