@@ -5,8 +5,8 @@
       "groupName": "Python",
       "matchFileNames": [".python-version", "Dockerfile", "pyproject.toml"],
       "matchPackageNames": ["python"],
+      "semanticCommitType": "fix",
       "semanticCommitScope": "python",
-      "automerge": false,
       "separateMinorPatch": true
     },
     {
