@@ -19,7 +19,8 @@
     {
       "groupName": "GitHub Actions dependencies",
       "matchPaths": [".github/workflows/*.yml"],
-      "addLabels": ["ci"]
+      "addLabels": ["ci"],
+      "semanticCommitType": "ci"
     }
   ]
 }
