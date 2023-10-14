@@ -1,5 +1,10 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  {
+  "pub": {
+    "minimumReleaseAge": "7 days"
+    }
+  },
   "packageRules": [
     {
       "groupName": "Internal packages",
