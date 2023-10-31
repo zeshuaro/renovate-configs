@@ -4,7 +4,7 @@
     {
       "groupName": "Node version",
       "matchFileNames": [".nvmrc", "package.json"],
-      "matchPackageNames": ["node", "@types/node"],
+      "matchPackageNames": ["node"],
       "semanticCommitType": "fix",
       "semanticCommitScope": "node",
       "automerge": false,
