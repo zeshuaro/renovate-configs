@@ -34,6 +34,14 @@
       "groupName": "Example dependencies",
       "matchPaths": ["example/pubspec.yaml"],
       "semanticCommitType": "chore"
+    },
+    {
+      "groupName": "Dart SDK",
+      "matchFileNames": ["**/pubspec.yaml"],
+      "matchPackageNames": ["dart"],
+      "semanticCommitType": "feat",
+      "semanticCommitScope": "dart",
+      "automerge": false
     }
   ]
 }
