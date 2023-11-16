@@ -29,6 +29,11 @@
       "groupName": "Universal dependencies",
       "matchPaths": ["**/pubspec.yaml"],
       "matchPackagePrefixes": ["universal_"]
+    },
+    {
+      "groupName": "Example dependencies",
+      "matchPaths": ["example/pubspec.yaml"],
+      "semanticCommitType": "chore"
     }
   ]
 }
