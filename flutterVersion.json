@@ -1,0 +1,15 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "packageRules": [
+    {
+      "groupName": "Flutter version",
+      "matchFileNames": [".fvm/fvm_config.json", "**/pubspec.yaml"],
+      "matchPackageNames": ["flutter"],
+      "semanticCommitType": "feat",
+      "semanticCommitScope": "flutter",
+      "automerge": false,
+      "rangeStrategy": "bump",
+      "separateMinorPatch": true
+    }
+  ]
+}

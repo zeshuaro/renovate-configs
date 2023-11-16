@@ -18,15 +18,6 @@
       "matchPackageNames": ["dart"],
       "description": "Dart SDK updates are disabled as its version is managed by Flutter",
       "enabled": false
-    },
-    {
-      "groupName": "Flutter SDK",
-      "matchFileNames": [".fvm/fvm_config.json", "**/pubspec.yaml"],
-      "matchPackageNames": ["flutter"],
-      "labels": ["fluttersdk"],
-      "semanticCommitType": "feat",
-      "semanticCommitScope": "flutter",
-      "automerge": false
     }
   ]
 }
