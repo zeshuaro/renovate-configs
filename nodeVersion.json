@@ -5,7 +5,7 @@
       "groupName": "Node version",
       "matchFileNames": [".nvmrc", "package.json"],
       "matchPackageNames": ["node"],
-      "semanticCommitType": "fix",
+      "semanticCommitType": "feat",
       "semanticCommitScope": "node",
       "automerge": false,
       "separateMinorPatch": true,
