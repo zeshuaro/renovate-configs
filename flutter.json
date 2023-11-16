@@ -24,6 +24,7 @@
       "matchFileNames": [".fvm/fvm_config.json", "**/pubspec.yaml"],
       "matchPackageNames": ["flutter"],
       "labels": ["fluttersdk"],
+      "semanticCommitType": "fix",
       "semanticCommitScope": "flutter",
       "automerge": false
     }
