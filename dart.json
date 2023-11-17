@@ -33,7 +33,7 @@
     {
       "groupName": "Example dependencies",
       "matchPaths": ["example/pubspec.yaml"],
-      "semanticCommitType": "chore"
+      "semanticCommitScope": "example/deps"
     },
     {
       "groupName": "Dart SDK",
@@ -41,7 +41,9 @@
       "matchPackageNames": ["dart"],
       "semanticCommitType": "feat",
       "semanticCommitScope": "dart",
-      "automerge": false
+      "automerge": false,
+      "rangeStrategy": "bump",
+      "separateMinorPatch": true
     }
   ]
 }
