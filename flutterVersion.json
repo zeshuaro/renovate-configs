@@ -8,6 +8,7 @@
       "semanticCommitType": "feat",
       "semanticCommitScope": "flutter",
       "automerge": false,
+      "minimumReleaseAge": null,
       "rangeStrategy": "bump",
       "separateMinorPatch": true
     }
