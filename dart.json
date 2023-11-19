@@ -40,7 +40,7 @@
       "matchFileNames": ["**/pubspec.yaml"],
       "matchPackageNames": ["dart"],
       "semanticCommitType": "feat",
-      "semanticCommitScope": "dart",
+      "semanticCommitScope": "sdk",
       "automerge": false,
       "minimumReleaseAge": null,
       "rangeStrategy": "bump",
