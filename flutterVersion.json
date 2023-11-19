@@ -6,7 +6,7 @@
       "matchFileNames": [".fvm/fvm_config.json", "**/pubspec.yaml"],
       "matchPackageNames": ["flutter"],
       "semanticCommitType": "feat",
-      "semanticCommitScope": "flutter",
+      "semanticCommitScope": "sdk",
       "automerge": false,
       "minimumReleaseAge": null,
       "rangeStrategy": "bump",
