@@ -11,6 +11,14 @@
       "minimumReleaseAge": null,
       "rangeStrategy": "bump",
       "separateMinorPatch": true
+    },
+    {
+      "groupName": "Flutter patch version",
+      "matchFileNames": [".fvm/fvm_config.json", "**/pubspec.yaml"],
+      "matchPackageNames": ["flutter"],
+      "matchUpdateTypes": ["patch"],
+      "semanticCommitType": "fix",
+      "automerge": true
     }
   ]
 }
