@@ -8,8 +8,16 @@
       "semanticCommitType": "feat",
       "semanticCommitScope": "node",
       "automerge": false,
-      "separateMinorPatch": true,
-      "rangeStrategy": "bump"
+      "rangeStrategy": "bump",
+      "separateMinorPatch": true
+    },
+    {
+      "groupName": "Node minor patch versions",
+      "matchFileNames": [".nvmrc", "package.json"],
+      "matchPackageNames": ["node"],
+      "matchUpdateTypes": ["minor", "patch"],
+      "semanticCommitType": "fix",
+      "automerge": true
     }
   ]
 }
