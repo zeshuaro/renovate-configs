@@ -6,11 +6,7 @@
       "description": "These dependencies are used in Flutter SDK so their versions have to be aligned with the SDK",
       "enabled": false,
       "matchPaths": ["**/pubspec.yaml"],
-      "matchPackageNames": [
-        "material_color_utilities",
-        "collection",
-        "analyzer"
-      ]
+      "matchPackageNames": ["material_color_utilities", "collection"]
     },
     {
       "groupName": "Dart SDK",
