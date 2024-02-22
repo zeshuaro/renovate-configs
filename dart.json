@@ -5,7 +5,7 @@
   },
   "packageRules": [
     {
-      "groupName": "Internal packages",
+      "groupName": null,
       "description": "Don't pin dependency versions for internal packages",
       "matchPaths": ["packages/**/pubspec.yaml"],
       "rangeStrategy": "replace"
@@ -31,7 +31,8 @@
       "matchPackagePrefixes": ["universal_"]
     },
     {
-      "groupName": "Example dependencies",
+      "groupName": null,
+      "description": "Example dependencies",
       "matchPaths": ["example/pubspec.yaml"],
       "semanticCommitScope": "example/deps"
     },

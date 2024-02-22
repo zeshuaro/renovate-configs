@@ -17,7 +17,8 @@
   "timezone": "Australia/Sydney",
   "packageRules": [
     {
-      "groupName": "GitHub Actions dependencies",
+      "groupName": null,
+      "description": "GitHub Actions dependencies",
       "matchPaths": [".github/workflows/*.yml"],
       "addLabels": ["ci"],
       "semanticCommitType": "ci"
