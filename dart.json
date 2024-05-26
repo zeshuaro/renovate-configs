@@ -39,7 +39,7 @@
     {
       "groupName": "Dart version",
       "matchFileNames": ["**/pubspec.yaml"],
-      "matchPackageNames": ["dart"],
+      "matchDepNames": ["dart"],
       "semanticCommitType": "feat",
       "semanticCommitScope": "sdk",
       "automerge": false,
@@ -50,7 +50,7 @@
     {
       "groupName": "Dart minor patch version",
       "matchFileNames": ["**/pubspec.yaml"],
-      "matchPackageNames": ["dart"],
+      "matchDepNames": ["dart"],
       "matchUpdateTypes": ["minor", "patch"],
       "semanticCommitType": "fix",
       "automerge": true

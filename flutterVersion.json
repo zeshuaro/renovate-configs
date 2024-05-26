@@ -4,7 +4,7 @@
     {
       "groupName": "Flutter version",
       "matchFileNames": [".fvm/fvm_config.json", "**/pubspec.yaml"],
-      "matchPackageNames": ["flutter"],
+      "matchDepNames": ["flutter"],
       "semanticCommitType": "feat",
       "semanticCommitScope": "sdk",
       "automerge": false,
@@ -15,7 +15,7 @@
     {
       "groupName": "Flutter patch version",
       "matchFileNames": [".fvm/fvm_config.json", "**/pubspec.yaml"],
-      "matchPackageNames": ["flutter"],
+      "matchDepNames": ["flutter"],
       "matchUpdateTypes": ["patch"],
       "semanticCommitType": "fix",
       "automerge": true

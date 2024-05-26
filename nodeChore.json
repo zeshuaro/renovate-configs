@@ -4,7 +4,7 @@
     {
       "groupName": "Node chore",
       "matchFileNames": [".nvmrc", "package.json"],
-      "matchPackageNames": ["node"],
+      "matchDepNames": ["node"],
       "semanticCommitType": "chore",
       "separateMinorPatch": false
     }
