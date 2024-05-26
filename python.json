@@ -4,7 +4,7 @@
     {
       "groupName": "Python",
       "matchFileNames": [".python-version", "Dockerfile", "pyproject.toml"],
-      "matchPackageNames": ["python"],
+      "matchDepNames": ["python"],
       "semanticCommitType": "feat",
       "semanticCommitScope": "python",
       "separateMinorPatch": true
@@ -12,7 +12,7 @@
     {
       "groupName": "Requests dependencies",
       "matchPaths": ["pyproject.toml"],
-      "matchPackageNames": ["requests", "types-requests"]
+      "matchDepNames": ["requests", "types-requests"]
     }
   ]
 }
