@@ -31,12 +31,6 @@
       "matchPackagePrefixes": ["universal_"]
     },
     {
-      "groupName": null,
-      "description": "Example dependencies",
-      "matchPaths": ["example/pubspec.yaml"],
-      "semanticCommitScope": "example/deps"
-    },
-    {
       "groupName": "Dart version",
       "matchFileNames": ["**/pubspec.yaml"],
       "matchDepNames": ["dart"],
@@ -54,6 +48,13 @@
       "matchUpdateTypes": ["minor", "patch"],
       "semanticCommitType": "fix",
       "automerge": true
+    },
+    {
+      "groupName": null,
+      "description": "Example dependencies",
+      "matchPaths": ["example/pubspec.yaml"],
+      "semanticCommitType": "chore",
+      "semanticCommitScope": "example/deps"
     }
   ]
 }
