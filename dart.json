@@ -33,6 +33,7 @@
     {
       "matchPaths": ["**/pubspec.yaml"],
       "matchDepNames": ["json_serializable", "source_gen"]
+    },
     {
       "groupName": "Dart version",
       "matchFileNames": ["**/pubspec.yaml"],
