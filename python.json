@@ -2,7 +2,7 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "packageRules": [
     {
-      "groupName": null,
+      "groupName": "Python",
       "matchFileNames": [".python-version", "Dockerfile", "pyproject.toml"],
       "matchDepNames": ["python"],
       "semanticCommitType": "feat",
@@ -10,7 +10,7 @@
       "separateMinorPatch": true
     },
     {
-      "groupName": null,
+      "groupName": "Requests dependencies",
       "matchPaths": ["pyproject.toml"],
       "matchDepNames": ["requests", "types-requests"]
     }

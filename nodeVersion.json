@@ -2,7 +2,7 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "packageRules": [
     {
-      "groupName": null,
+      "groupName": "Node version",
       "matchFileNames": [".nvmrc", "package.json"],
       "matchDepNames": ["node", "@types/node"],
       "semanticCommitType": "feat",
@@ -12,7 +12,7 @@
       "separateMinorPatch": true
     },
     {
-      "groupName": null,
+      "groupName": "Node minor patch versions",
       "matchFileNames": [".nvmrc", "package.json"],
       "matchDepNames": ["node", "@types/node"],
       "matchUpdateTypes": ["minor", "patch"],
