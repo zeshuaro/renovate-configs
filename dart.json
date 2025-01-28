@@ -11,31 +11,32 @@
       "rangeStrategy": "replace"
     },
     {
-      "groupName": "Bloc dependencies",
+      "groupName": null,
       "matchPaths": ["**/pubspec.yaml"],
       "matchPackagePrefixes": ["bloc", "flutter_bloc"]
     },
     {
-      "groupName": "Copy with extension dependencies",
+      "groupName": null,
       "matchPaths": ["**/pubspec.yaml"],
       "matchPackagePrefixes": ["copy_with_extension"]
     },
     {
-      "groupName": "Firebase dependencies",
+      "groupName": null,
       "matchPaths": ["**/pubspec.yaml"],
       "matchPackagePrefixes": ["firebase_", "cloud_firestore"]
     },
     {
-      "groupName": "Universal dependencies",
+      "groupName": null,
       "matchPaths": ["**/pubspec.yaml"],
       "matchPackagePrefixes": ["universal_"]
     },
     {
+      "groupName": null,
       "matchPaths": ["**/pubspec.yaml"],
       "matchDepNames": ["freezed", "json_serializable", "source_gen"]
     },
     {
-      "groupName": "Dart version",
+      "groupName": null,
       "matchFileNames": ["**/pubspec.yaml"],
       "matchDepNames": ["dart"],
       "semanticCommitType": "feat",
@@ -46,7 +47,7 @@
       "separateMinorPatch": true
     },
     {
-      "groupName": "Dart minor patch version",
+      "groupName": null,
       "matchFileNames": ["**/pubspec.yaml"],
       "matchDepNames": ["dart"],
       "matchUpdateTypes": ["minor", "patch"],
