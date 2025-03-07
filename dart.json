@@ -1,38 +1,36 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "pub": {
-    "minimumReleaseAge": "7 days"
-  },
+  "pub": { "minimumReleaseAge": "7 days" },
   "packageRules": [
     {
       "groupName": null,
       "description": "Don't pin dependency versions for internal packages",
-      "matchPaths": ["packages/**/pubspec.yaml"],
+      "matchFileNames": ["packages/**/pubspec.yaml"],
       "rangeStrategy": "replace"
     },
     {
       "groupName": "Bloc dependencies",
-      "matchPaths": ["**/pubspec.yaml"],
-      "matchPackagePrefixes": ["bloc", "flutter_bloc"]
+      "matchFileNames": ["**/pubspec.yaml"],
+      "matchPackageNames": ["bloc{/,}**", "flutter_bloc{/,}**"]
     },
     {
       "groupName": "Copy with extension dependencies",
-      "matchPaths": ["**/pubspec.yaml"],
-      "matchPackagePrefixes": ["copy_with_extension"]
+      "matchFileNames": ["**/pubspec.yaml"],
+      "matchPackageNames": ["copy_with_extension{/,}**"]
     },
     {
       "groupName": "Firebase dependencies",
-      "matchPaths": ["**/pubspec.yaml"],
-      "matchPackagePrefixes": ["firebase_", "cloud_firestore"]
+      "matchFileNames": ["**/pubspec.yaml"],
+      "matchPackageNames": ["firebase_{/,}**", "cloud_firestore{/,}**"]
     },
     {
       "groupName": "Universal dependencies",
-      "matchPaths": ["**/pubspec.yaml"],
-      "matchPackagePrefixes": ["universal_"]
+      "matchFileNames": ["**/pubspec.yaml"],
+      "matchPackageNames": ["universal_{/,}**"]
     },
     {
       "groupName": "Code generation dependencies",
-      "matchPaths": ["**/pubspec.yaml"],
+      "matchFileNames": ["**/pubspec.yaml"],
       "matchDepNames": ["freezed", "json_serializable", "source_gen"]
     },
     {
@@ -57,7 +55,7 @@
     {
       "groupName": null,
       "description": "Example dependencies",
-      "matchPaths": ["example/pubspec.yaml"],
+      "matchFileNames": ["example/pubspec.yaml"],
       "semanticCommitType": "chore",
       "semanticCommitScope": "example/deps"
     }

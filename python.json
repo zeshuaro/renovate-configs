@@ -11,7 +11,7 @@
     },
     {
       "groupName": "Requests dependencies",
-      "matchPaths": ["pyproject.toml"],
+      "matchFileNames": ["pyproject.toml"],
       "matchDepNames": ["requests", "types-requests"]
     }
   ]

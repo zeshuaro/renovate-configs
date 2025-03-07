@@ -5,10 +5,10 @@
   ],
   "packageRules": [
     {
-      "matchPackagePatterns": [
+      "rangeStrategy": "bump",
+      "matchPackageNames": [
         "*"
-      ],
-      "rangeStrategy": "bump"
+      ]
     },
     {
       "matchDepTypes": [
