@@ -6,6 +6,7 @@
       "groupName": null,
       "description": "Don't pin dependency versions for internal packages",
       "matchFileNames": ["packages/**/pubspec.yaml"],
+      "matchDepTypes": ["dependencies"],
       "rangeStrategy": "replace"
     },
     {
