@@ -3,5 +3,11 @@
   "extends": [
     ":pinAllExceptPeerDependencies",
     "local>zeshuaro/renovate-configs:nodeVersion"
+  ],
+  "packageRules": [
+    {
+      "matchDepTypes": ["dev_dependencies"],
+      "rangeStrategy": "pin"
+    }
   ]
 }
