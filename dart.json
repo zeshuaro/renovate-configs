@@ -32,7 +32,12 @@
     {
       "groupName": "Code generation dependencies",
       "matchFileNames": ["**/pubspec.yaml"],
-      "matchDepNames": ["freezed{/,}**", "json_serializable", "source_gen"]
+      "matchDepNames": [
+        "build_runner",
+        "freezed{/,}**",
+        "json_serializable",
+        "source_gen"
+      ]
     },
     {
       "groupName": "Dart version",
