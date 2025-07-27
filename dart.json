@@ -15,11 +15,6 @@
       "matchPackageNames": ["bloc{/,}**", "flutter_bloc{/,}**"]
     },
     {
-      "groupName": "Copy with extension dependencies",
-      "matchFileNames": ["**/pubspec.yaml"],
-      "matchPackageNames": ["copy_with_extension{/,}**"]
-    },
-    {
       "groupName": "Firebase dependencies",
       "matchFileNames": ["**/pubspec.yaml"],
       "matchPackageNames": ["firebase_{/,}**", "cloud_firestore{/,}**"]
@@ -34,6 +29,7 @@
       "matchFileNames": ["**/pubspec.yaml"],
       "matchDepNames": [
         "build{/,}**",
+        "copy_with_extension{/,}**",
         "freezed{/,}**",
         "json_serializable",
         "source_gen"
