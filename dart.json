@@ -37,7 +37,8 @@
         "freezed{/,}**",
         "json_serializable",
         "source_gen"
-      ]
+      ],
+      "separateMajorMinor": false
     },
     {
       "groupName": "Dart version",
