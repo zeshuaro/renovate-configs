@@ -33,7 +33,7 @@
       "groupName": "Code generation dependencies",
       "matchFileNames": ["**/pubspec.yaml"],
       "matchDepNames": [
-        "build_runner",
+        "build{/,}**",
         "freezed{/,}**",
         "json_serializable",
         "source_gen"
