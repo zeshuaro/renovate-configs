@@ -28,6 +28,7 @@
       "groupName": "Code generation dependencies",
       "matchFileNames": ["**/pubspec.yaml"],
       "matchDepNames": [
+        "analyzer",
         "build{/,}**",
         "copy_with_extension{/,}**",
         "freezed{/,}**",
