@@ -55,7 +55,7 @@
       "matchDepNames": ["dart"],
       "matchUpdateTypes": ["minor", "patch"],
       "semanticCommitType": "fix",
-      "automerge": true
+      "automerge": false
     },
     {
       "groupName": null,
