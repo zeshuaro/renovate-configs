@@ -18,7 +18,7 @@
       "matchDepNames": ["flutter"],
       "matchUpdateTypes": ["patch"],
       "semanticCommitType": "fix",
-      "automerge": true
+      "automerge": false
     }
   ]
 }
