@@ -2,23 +2,29 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "packageRules": [
     {
-      "groupName": "Flutter version",
+      "groupName": "Flutter SDK",
       "matchFileNames": [".fvm/fvm_config.json", "**/pubspec.yaml"],
       "matchDepNames": ["flutter"],
-      "semanticCommitType": "feat",
-      "semanticCommitScope": "sdk",
       "automerge": false,
       "minimumReleaseAge": null,
       "rangeStrategy": "bump",
-      "separateMinorPatch": true
+      "semanticCommitScope": "sdk",
+      "separateMinorPatch": true,
+      "versioning": "npm"
     },
     {
-      "groupName": "Flutter patch version",
+      "groupName": "Flutter SDK major minor version",
+      "matchFileNames": [".fvm/fvm_config.json", "**/pubspec.yaml"],
+      "matchDepNames": ["flutter"],
+      "matchUpdateTypes": ["major", "minor"],
+      "semanticCommitType": "feat"
+    },
+    {
+      "groupName": "Flutter SDK patch version",
       "matchFileNames": [".fvm/fvm_config.json", "**/pubspec.yaml"],
       "matchDepNames": ["flutter"],
       "matchUpdateTypes": ["patch"],
-      "semanticCommitType": "fix",
-      "automerge": false
+      "semanticCommitType": "fix"
     }
   ]
 }
