@@ -32,6 +32,7 @@
         "build{/,}**",
         "copy_with_extension{/,}**",
         "freezed{/,}**",
+        "json_annotation",
         "json_serializable",
         "source_gen",
         "test"
