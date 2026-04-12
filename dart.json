@@ -39,23 +39,29 @@
       "separateMajorMinor": false
     },
     {
-      "groupName": "Dart version",
+      "groupName": "Dart SDK",
       "matchFileNames": ["**/pubspec.yaml"],
       "matchDepNames": ["dart"],
-      "semanticCommitType": "feat",
-      "semanticCommitScope": "sdk",
       "automerge": false,
       "minimumReleaseAge": null,
       "rangeStrategy": "bump",
-      "separateMinorPatch": true
+      "semanticCommitScope": "sdk",
+      "separateMinorPatch": true,
+      "versioning": "npm"
     },
     {
-      "groupName": "Dart minor patch version",
+      "groupName": "Dart SDK major version",
+      "matchFileNames": ["**/pubspec.yaml"],
+      "matchDepNames": ["dart"],
+      "matchUpdateTypes": ["major"],
+      "semanticCommitType": "feat"
+    },
+    {
+      "groupName": "Dart SDK minor patch version",
       "matchFileNames": ["**/pubspec.yaml"],
       "matchDepNames": ["dart"],
       "matchUpdateTypes": ["minor", "patch"],
-      "semanticCommitType": "fix",
-      "automerge": false
+      "semanticCommitType": "fix"
     },
     {
       "groupName": null,
