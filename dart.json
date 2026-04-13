@@ -43,7 +43,6 @@
       "groupName": "Dart SDK",
       "matchFileNames": ["**/pubspec.yaml"],
       "matchDepNames": ["dart"],
-      "automerge": false,
       "minimumReleaseAge": null,
       "rangeStrategy": "bump",
       "semanticCommitScope": "sdk",
@@ -62,7 +61,8 @@
       "matchFileNames": ["**/pubspec.yaml"],
       "matchDepNames": ["dart"],
       "matchUpdateTypes": ["minor", "patch"],
-      "semanticCommitType": "fix"
+      "semanticCommitType": "fix",
+      "automerge": true
     },
     {
       "groupName": null,
