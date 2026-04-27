@@ -22,13 +22,6 @@
       "matchFileNames": [".github/workflows/*.yml"],
       "addLabels": ["ci"],
       "semanticCommitType": "ci"
-    },
-    {
-      "groupName": null,
-      "description": "zeshuaro GitHub Actions dependencies",
-      "matchFileNames": [".github/workflows/*.yml"],
-      "matchPackageNames": ["zeshuaro/github-actions-workflows"],
-      "overrideDatasource": "github-digest"
     }
   ]
 }
